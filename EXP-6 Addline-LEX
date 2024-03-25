@@ -8,6 +8,6 @@ int yywrap(){}
 int main()
 {
 yyin=fopen("input.txt","r");
-yyout=fopen("outnew.txt","w");
+yyout=fopen("output.txt","w");
 yylex();
 }
